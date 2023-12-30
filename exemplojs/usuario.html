@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Nº 3</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+
+
+
+<body class="bg-warning">
+    <header>
+        <nav class="navbar navbar-expand bg-body-secondary">
+            <ul class="navbar-nav px-1">
+                <li><a href="../exemplojs/index.html" class="btn btn-custom btn-secondary m-3">Inicio</a></li>
+                <li><a href="./ordenado.html" class="btn btn-custom btn-secondary m-3">Procedimento Nº 1</a></li>
+                <li><a href="./receitas.html" class="btn btn-custom btn-secondary m-3">Procedimento Nº 2</a></li>
+                <li><a href="./usuario.html"
+                        class="btn btn-custom btn-secondary m-3 disabled bg-primary">Procedimento Nº 3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1 class="text-center m-3">Usuários de Teste via REST</h1>
+        <h5 class="text-center m-3 subtitle">Os usuários deste exemplo são fornecidos pela API de testes <a
+                href="https://reqres.in/" target="_blank">reqres.in</a></h5>
+        <div class="container-fluid" id="usuarios">
+            <div class="row d-flex justify-content-center">
+                <div class="card col-3 p-2 m-3 text-center" v-for="(user,index) in users" :key="index">
+                    <img class="card-img-top" :src="user.avatar">
+                    <div class="card-body">
+                        <h5 class="card-title">{{user.first_name}} {{user.last_name}}</h5>
+                        <p class="card-text">{{user.email}}</p>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="container">
+        <p class="text-center mt-3 fw-bold">Dados fornecidos por <a href="https://reqres.in/" target="_blank">ReqRes</a>
+        </p>
+    </footer>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="../exemplojs/usuarios.js"></script>
+</body>
+
+</html>

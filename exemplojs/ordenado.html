@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Atividade Nº 1</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <script src="ordenado.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand bg-body-secondary">
+            <ul class="navbar-nav px-1">
+                <li><a href="../exemplojs/index.html" class="btn btn-custom btn-secondary m-3">Inicio</a></li>
+                <li><a href="./ordenado.html"class="btn btn-custom btn-secondary m-3 disabled bg-primary">Procedimento Nº 1</a></li>
+                <li><a href="./receitas.html" class="btn btn-custom btn-secondary m-3">Procedimento Nº 2</a></li>
+                <li><a href="./usuario.html" class="btn btn-custom btn-secondary m-3 ">Procedimento Nº 3</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ordenado">
+        <h1>Ordenando Valores</h1>
+        <label for="valor">Adicione os Valores:</label>
+        <input type="number" class="block w-100" name="valor" id="valor">
+        <button class="btn btn1 btn-primary block px-3" type="button" onclick="add()">Adicionar</button>
+        <hr>
+
+        <label for="valor">Selecione a Ordenação Desejada:</label>
+        <select id="listSort" class="block w-100">
+            <option value="bubbleSort" selected>Bubble Sort</option>
+            <option value="selectionSort">Selection Sort</option>
+            <option value="quickSort">Quick Sort</option>
+        </select>
+        <div class="sorting-buttons">
+            <button class="btn  btn1 btn-primary px-3" onclick="ordenar()">Ordenar</button>
+            <button class="btn  btn1 btn-primary px-3" onclick="misturar()">Misturar</button>
+            <button type="submit" class="btn btn1 btn-primary px-3" class="button" onclick="limpar()">Limpar</button>
+        </div>
+    </div>
+
+
+    <ul id="valores">
+
+
+    </ul>
+    <br>
+    <br>
+    <br>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+
+    <footer class="fixarRodape">&copy; Tigo-Pereira-Dev-2023 </footer>
+
+</body>
+
+</html>

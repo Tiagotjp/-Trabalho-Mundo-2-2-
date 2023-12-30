@@ -1,0 +1,32 @@
+
+.btn1{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+    font-weight: 300;
+    min-width: 6rem !important;
+
+}
+
+.input-buttons > button, .sorting-buttons > button {
+    margin-right: 1rem;
+}
+
+.fixarRodape {
+    display: flex;
+    background-color: #efefef;
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 1.5rem;
+ }
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    background-color:#f1ebeb;
+    height: 60px !important;
+}
+
+main {
+    height: calc(100vh -100px) !important;
+}

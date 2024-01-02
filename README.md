@@ -1,6 +1,6 @@
 
 
-![logo-estc3a1cio](https://github.com/Tiagotjp/Trabalho-Mundo-2-2/assets/132152335/b59422b3-60e4-4ad1-93f8-c6e8076ba728)
+![logo-estc3a1cio](https://github.com/Tiagotjp/-Trabalho-Mundo-2-2-/assets/132152335/4f4524a5-c711-4109-bd99-ba90241c8bbc)
 
 
 
@@ -35,21 +35,20 @@ Utilizar framework VUE JS na construção dinâmica de elementos HTML.
 
 ### 1º Procedimento | Ordenando com Java Script e DOM
 
-![000111](https://github.com/Tiagotjp/Trabalho-Mundo-2-2/assets/132152335/cdf22684-58f4-4004-8244-fda184750551)
+![000111](https://github.com/Tiagotjp/-Trabalho-Mundo-2-2-/assets/132152335/9b5a9d40-4f2f-471a-8434-0af8eaa09781)
 
 
 ### 2º Procedimento | Página de Receitas Dinâmica
 
-![0002222](https://github.com/Tiagotjp/Trabalho-Mundo-2-2/assets/132152335/a3e87bc2-730c-40a3-bf75-f232ffb24120)
-
+![0002222](https://github.com/Tiagotjp/-Trabalho-Mundo-2-2-/assets/132152335/4dc7443b-05bb-4a18-9202-cdead86f61d3)
 
 ### 3º Procedimento | Transmissão de Dados e VUE JS
 
-![00003333](https://github.com/Tiagotjp/Trabalho-Mundo-2-2/assets/132152335/3a9fd530-597c-4e1c-947b-7ede49465d29)
+![00003333](https://github.com/Tiagotjp/-Trabalho-Mundo-2-2-/assets/132152335/427b7509-4cbb-4f48-a397-5bc9025e6a12)
 
 
 
-![000055555555](https://github.com/Tiagotjp/Trabalho-Mundo-2-2/assets/132152335/4eb2cef1-904d-45e5-b0c1-94436fe68f22)
+![000055555555](https://github.com/Tiagotjp/-Trabalho-Mundo-2-2-/assets/132152335/7f315b10-f433-41c8-bbb8-128f5c32e193)
 
 
 
